@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "153355442956",
+    "firebase_url": "https://starmap-adc10-default-rtdb.firebaseio.com",
+    "project_id": "starmap-adc10",
+    "storage_bucket": "starmap-adc10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153355442956:android:a1b25b19099a246ca7c729",
+        "android_client_info": {
+          "package_name": "com.starmap.starmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153355442956-3uhkoc6eh0ushplbu0eaa6et6nbrmt9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5O2eVHTgLxXFf_jD5xz-mF2UoJpcQTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153355442956-3uhkoc6eh0ushplbu0eaa6et6nbrmt9q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153355442956-s821hdgl5d1uvs5pipateqal37dpime5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.starmap.starmap"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
