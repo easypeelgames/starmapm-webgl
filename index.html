@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | Starmap-m</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script type="module" src="/index.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -93,6 +94,7 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
+          this.unityInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
