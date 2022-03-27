@@ -131,21 +131,15 @@
   var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+  var loaderUrl = buildUrl + "/starmapm-webgl.loader.js";
   var config = {
-    dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
-    frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
-    codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
-  #if MEMORY_FILENAME
-  memoryUrl: buildUrl + "/{{{ MEMORY_FILENAME }}}",
-          #endif
-  #if SYMBOLS_FILENAME
-  symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
-          #endif
-  streamingAssetsUrl: "StreamingAssets",
-          companyName: "{{{ COMPANY_NAME }}}",
-          productName: "{{{ PRODUCT_NAME }}}",
-          productVersion: "{{{ PRODUCT_VERSION }}}",
+    dataUrl: buildUrl + "/starmapm-webgl.data",
+    frameworkUrl: buildUrl + "/starmapm-webgl.framework.js",
+    codeUrl: buildUrl + "/starmapm-webgl.wasm",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "Metaversal Cartographers Guild",
+    productName: "Starmap-m",
+    productVersion: "0.0.24",
   };
 
   var container = document.querySelector("#gameContainer");
